@@ -1,0 +1,5 @@
+/* styles.css */
+img {
+    width: 40%; /* Set the width of the image */
+    height: 20%; /* Maintain aspect ratio */
+}
