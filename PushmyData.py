@@ -6,6 +6,7 @@ def run_git_command(command):
     output, error = process.communicate()
     if process.returncode != 0:
         print(f"Error: {error.decode('utf-8')}")
+        print('your code is not sent to Repo')
     return output.decode('utf-8')
 
 # Main function
