@@ -5,12 +5,12 @@ def run_git_command(command):
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
     if result.returncode == 0:
         print("Command executed successfully!")
+        print("Output:")
+        print(result.stdout)
     else:
         print("Error executing command!")
-    print("Output:")
-    print(result.stdout)
-    print("Errors:")
-    print(result.stderr)
+        print("Errors:")
+        print(result.stderr)
 
 def main():
     # Ask for commit message
