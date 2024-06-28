@@ -9,32 +9,50 @@
 <body>
     <div class="container">
         <header>
-            <h1>Your Name</h1>
+            <h1>KULDEEP KUMAR SINGH</h1>
             <p>Email: <a href="mailto:kdiitg@gmail.com">your.email@example.com</a></p>
             <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
             <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
-            <p>Portfolio: <a href="https://yourportfolio.com" target="_blank">yourportfolio.com</a></p>
         </header>
 
-        <section>
+        <nav>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li class="dropdown">
+                    <a href="#projects" class="dropbtn">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#project1">Cricket Alerts to Telegram</a>
+                        <a href="#project2">Text and File Transfer App</a>
+                        <a href="#project3">Excel File Automation</a>
+                    </div>
+                </li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="summary">
             <h2>Summary</h2>
             <p>[Brief introduction about yourself, your background, and your career goals. Aim for 3-4 sentences.]</p>
         </section>
 
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
             <ul>
                 <li><strong>Languages:</strong> Python, JavaScript, HTML, CSS</li>
                 <li><strong>Libraries/Frameworks:</strong> pandas, openpyxl, BeautifulSoup, Selenium, CustomTkinter</li>
                 <li><strong>Tools:</strong> Git, API integration, WebSocket, Authentication</li>
-                <li><strong>Others:</strong> [Other relevant skills]</li>
+                <li><strong>Others:</strong> MySQL </li>
             </ul>
         </section>
 
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
 
-            <h3>Cricket Alerts to Telegram</h3>
+            <h3 id="project1">Cricket Alerts to Telegram</h3>
             <p><em>Date: January 2023 - Present</em></p>
             <ul>
                 <li>Developed a Python application to send real-time cricket alerts to a Telegram bot.</li>
@@ -44,7 +62,7 @@
                 <li><strong>Key Technologies:</strong> Python, APIs, Telegram API, Requests</li>
             </ul>
 
-            <h3>Text and File Transfer App</h3>
+            <h3 id="project2">Text and File Transfer App</h3>
             <p><em>Date: January 2023 - Present</em></p>
             <ul>
                 <li>Developed a text and file transfer application in Python to facilitate communication between mobile and PC.</li>
@@ -54,7 +72,7 @@
                 <li><strong>Key Technologies:</strong> Python, CustomTkinter, Requests, Telegram API</li>
             </ul>
 
-            <h3>Excel File Automation</h3>
+            <h3 id="project3">Excel File Automation</h3>
             <p><em>Date: [Month/Year] - [Month/Year]</em></p>
             <ul>
                 <li>Developed a Python program to automate the processing of hundreds of Excel files, reducing manual processing time significantly.</li>
@@ -65,7 +83,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="experience">
             <h2>Professional Experience</h2>
             <h3>Software Developer - XYZ Company</h3>
             <p><em>April 2022 - Present</em></p>
@@ -76,17 +94,17 @@
             </ul>
         </section>
 
-        <section>
+        <section id="education">
             <h2>Education</h2>
-            <h3>Your Degree</h3>
-            <p><em>Your University, Graduation Year</em></p>
+            <h3>M.Tech.</h3>
+            <p><em>IIT Guwahati, Graduation Year</em></p>
             <ul>
                 <li>Relevant coursework: [Course 1, Course 2, Course 3]</li>
                 <li>Achievements: [Dean's list, scholarships, awards]</li>
             </ul>
         </section>
 
-        <section>
+        <section id="certifications">
             <h2>Certifications</h2>
             <ul>
                 <li>[Certification Name, Issuing Organization, Date]</li>
@@ -94,7 +112,8 @@
             </ul>
         </section>
 
-        <footer>
+        <footer id="contact">
+            <h2>Contact</h2>
             <p>Feel free to reach out to me via <a href="mailto:your.email@example.com">email</a> or connect with me on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
         </footer>
     </div>
